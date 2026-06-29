@@ -1,7 +1,7 @@
 STYLE = """
 /* ─── Global ─────────────────────────────── */
 QMainWindow, QDialog, QWidget {
-    background-color: #EEE0CC;
+    background-color: #F5F5F5;
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 13px;
     color: #2d2d2d;
@@ -73,7 +73,7 @@ QPushButton#btn_warning:hover {
 }
 
 QPushButton#btn_secondary {
-    background-color: #EEE0CC;
+    background-color: #F5F5F5;
     color: #607456;
     border: 2px solid #607456;
 }
@@ -124,7 +124,7 @@ QGroupBox {
     border-radius: 8px;
     margin-top: 10px;
     padding: 10px;
-    background-color: #f5ece0;
+    background-color: #F5F5F5;
     font-weight: bold;
     color: #607456;
 }
@@ -132,7 +132,7 @@ QGroupBox::title {
     subcontrol-origin: margin;
     subcontrol-position: top left;
     padding: 0 8px;
-    background-color: #EEE0CC;
+    background-color: #F5F5F5;
     color: #607456;
     font-size: 13px;
     font-weight: bold;
@@ -145,7 +145,7 @@ QFrame#sidebar {
 }
 QPushButton#menu_btn {
     background-color: transparent;
-    color: #EEE0CC;
+    color: #F5F5F5;
     text-align: left;
     padding: 12px 20px;
     border-radius: 6px;
@@ -164,7 +164,7 @@ QPushButton#menu_btn:checked {
 
 /* ─── ScrollBar ──────────────────────────── */
 QScrollBar:vertical {
-    background: #EEE0CC;
+    background: #F5F5F5;
     width: 10px;
     border-radius: 5px;
 }
@@ -179,7 +179,7 @@ QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
 
 /* ─── MessageBox ─────────────────────────── */
 QMessageBox {
-    background-color: #EEE0CC;
+    background-color: #F5F5F5;
 }
 QMessageBox QPushButton {
     min-width: 80px;
@@ -204,7 +204,7 @@ QRadioButton::indicator:checked {
 
 /* ─── Card Frame ─────────────────────────── */
 QFrame#card {
-    background-color: #f5ece0;
+    background-color: #F5F5F5;
     border: 1.5px solid #d0c4b0;
     border-radius: 10px;
     padding: 10px;

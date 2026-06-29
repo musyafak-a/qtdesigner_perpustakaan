@@ -51,7 +51,7 @@ class LoginWindow(QMainWindow):
 
         # ── Right Form ──
         form_area = QFrame()
-        form_area.setStyleSheet("background-color: #EEE0CC;")
+        form_area.setStyleSheet("background-color: #F5F5F5;")
         form_layout = QVBoxLayout(form_area)
         form_layout.setAlignment(Qt.AlignCenter)
         form_layout.setContentsMargins(50, 40, 50, 40)
@@ -191,7 +191,7 @@ class RegisterWindow(QMainWindow):
 
         # ── Right Form ──
         form_area = QFrame()
-        form_area.setStyleSheet("background-color: #EEE0CC;")
+        form_area.setStyleSheet("background-color: #F5F5F5;")
         fl = QVBoxLayout(form_area)
         fl.setAlignment(Qt.AlignVCenter)
         fl.setContentsMargins(40, 20, 40, 20)
